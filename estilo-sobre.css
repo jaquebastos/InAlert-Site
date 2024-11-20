@@ -1,0 +1,192 @@
+/* Importação das fontes utilizadas */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --corBranco: #d9d9d9;
+    --corLaranja: #D64933;
+    --corFundo: #071E22;
+    --corAzul: #3891A6;
+}
+
+* {
+    margin: 0;
+}
+
+body { 
+    background-color: var(--corFundo);
+    font-family: 'inter';
+}
+
+/* Estilo navbar */
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    height: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+ 
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .navbar li {
+    list-style: none;
+    font-size: 19px;
+}
+
+.nav-links{
+  font-weight: bold;
+  color: var(--corAzul);
+  text-decoration: none;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+
+    margin-top: 5%;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: var(--corBranco);
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+span {
+    color: var(--corLaranja);
+    padding-left: 7px;
+}
+
+.card {
+    position: relative;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card {
+    width: 250px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: var(--corCard);
+    border-radius: 10px;
+    overflow: hidden;
+    color: var(--corBranco);
+    padding-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid var(--corLaranja);
+}
+
+.card .name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--corLaranja);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.card .role {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: var(--corRole);
+    padding-bottom: 15px;
+}
+
+.card .linkedin {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.card .linkedin img {
+    width: 24px;
+    height: 24px;
+}
+
+.integrantes {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    padding-top: 59.41px;
+}
+
+footer {
+    background-color: var(--corAzul);
+    margin-top: 15%;
+    height: 400px;
+    margin-bottom: -12%;
+}
+.parte1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texto-footer {
+    font-family: 'Inter';
+    font-size: 20px;
+    color: var(--corBranco);
+    margin: 0 10% 0 10%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.linha {
+    width: 100%;
+    height: 1px;
+    background-color: var(--corFundo);
+    margin-top: 5%;
+}
+.parte2 {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 20%;
+    gap: 1%;
+}
+.parte2 img {
+    width: 24px;
+    height: 24px;
+}
+.parte2 p {
+    font-size: medium;
+    font-family: 'Inter';
+    color: var(--corBranco);
+    margin-top: 4px;
+}
+.copy {
+    margin-left: 5%;
+}
+
+.fc {
+    text-decoration: none;
+}
